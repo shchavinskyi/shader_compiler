@@ -12,10 +12,10 @@ const NamedArg = structopt.NamedArg;
 const Dir = std.fs.Dir;
 const File = std.fs.File;
 
-pub const std_options = .{
-    .logFn = logFn,
-    .log_level = .info,
-};
+// pub const std_options = .{
+//     .logFn = logFn,
+//     .log_level = .info,
+// };
 
 const Target = enum(c_uint) {
     @"Vulkan-1.0" = c.SPV_ENV_VULKAN_1_0,
